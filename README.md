@@ -4,18 +4,18 @@
 <br>
 It given a collection of businesses in a file filename.csv.
 And a name of a city city computes and prints out (in the STDOUT) the following statistics:
-<br>•  **numOfBus**: the number of businesses in the city
-<br>•  **avgStars**: the average number of stars of a business in the city
-<br>•  **numOfRestaurants**: the number of restaurants in the city
-<br>•  **avgStarsRestaurants**: the average number of stars of restaurants in the city
-<br>•  **avgNumOfReviews**: the average number of reviews for all businesses in the city
-<br>•  **avgNumOfReviewsBus**: the average number of reviews for restaurants in the city
+<br>•  **numOfBus** : the number of businesses in the city
+<br>•  **avgStars** : the average number of stars of a business in the city
+<br>•  **numOfRestaurants** : the number of restaurants in the city
+<br>•  **avgStarsRestaurants** : the average number of stars of restaurants in the city
+<br>•  **avgNumOfReviews** : the average number of reviews for all businesses in the city
+<br>•  **avgNumOfReviewsBus** : the average number of reviews for restaurants in the city
 
 ## 2. dist-stats
 <br>
 This can show the following: <br>
- **restaurantCategoryDist**: a frequency distribution of the number of restaurants in each category of restaurants (e.g., Chinese, Japanese, Korean, Greek, etc.) in a descending order of popularity (from the most popular category to the least popular) <br>
- **restaurantReviewDist**: a frequency distribution of the number of reviews submitted for each category of restaurants (e.g., Chinese, Japanese, Korean, Greek, etc.) in a descending order (from the most reviewed category to the least reviewed), along with the average number of stars received per category. <br>
+ **restaurantCategoryDist** : a frequency distribution of the number of restaurants in each category of restaurants (e.g., Chinese, Japanese, Korean, Greek, etc.) in a descending order of popularity (from the most popular category to the least popular) <br>
+ **restaurantReviewDist** : a frequency distribution of the number of reviews submitted for each category of restaurants (e.g., Chinese, Japanese, Korean, Greek, etc.) in a descending order (from the most reviewed category to the least reviewed), along with the average number of stars received per category. <br>
  **create a bar chart** that shows the top-10 of restaurantCategoryDist found earlier, where the x-axis represents the restaurant category and the y-axis represents its frequency (#restaurants).
 
 ## 3. yelp-network
@@ -27,6 +27,6 @@ It given a collection of users in a file filename.csv creates a file yelp-networ
 It prints the following with given a file of network as input: <br>
  **the number of nodes (|N|) and edges (|E|) of the network**
 <br>
- **nodeDegreeDist**: a frequency distribution of the node degrees of the network, in a descending order of frequency (from the highest to the lowest frequency). The degree of a node is the number of edges that are incident to the node (i.e., #neighbors). 
+ **nodeDegreeDist** : a frequency distribution of the node degrees of the network, in a descending order of frequency (from the highest to the lowest frequency). The degree of a node is the number of edges that are incident to the node (i.e., #neighbors). 
 <br>
- **avgNodeDegree**: The average node degree of the graph. 
+ **avgNodeDegree** : The average node degree of the graph. 
