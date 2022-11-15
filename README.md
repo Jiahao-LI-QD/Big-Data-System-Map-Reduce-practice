@@ -1,6 +1,6 @@
 This project provide some data analytics on Yelp businesses and its network.
 <br>
-##dstats##<br>
+**dstats**<br>
 It given a collection of businesses in a file filename.csv.
 And a name of a city city computes and prints out (in the STDOUT) the following statistics:
 <br>• numOfBus: the number of businesses in the city
