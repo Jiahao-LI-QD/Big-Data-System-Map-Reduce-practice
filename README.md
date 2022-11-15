@@ -13,7 +13,7 @@ And a name of a city city computes and prints out (in the STDOUT) the following 
 
 ## 2. dist-stats
 <br>
-This can show the following:
+This can show the following: <br>
 **restaurantCategoryDist**: a frequency distribution of the number of restaurants in each category of restaurants (e.g., Chinese, Japanese, Korean, Greek, etc.) in a descending order of popularity (from the most popular category to the least popular) <br>
 **restaurantReviewDist**: a frequency distribution of the number of reviews submitted for each category of restaurants (e.g., Chinese, Japanese, Korean, Greek, etc.) in a descending order (from the most reviewed category to the least reviewed), along with the average number of stars received per category. <br>
 **create a bar chart** that shows the top-10 of restaurantCategoryDist found earlier, where the x-axis represents the restaurant category and the y-axis represents its frequency (#restaurants).
