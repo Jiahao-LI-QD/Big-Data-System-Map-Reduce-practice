@@ -21,12 +21,13 @@ avgStarsRestaurants = 0.0
 avgNumOfReviews = 0.0
 avgNumOfReviewsBus = 0.0
 
-with open(filename, 'r', encoding = 'UTF-8') as f:
+with open(filename, 'r', encoding='UTF-8') as f:
+#with open(filename) as f:
     csv_read = csv.reader(f)
     title = next(csv_read)
     for line in csv_read:
         dic = dict(zip(title, line))
-        if dic["city"] == city:
+        if dic["city"].lower() == city.lower():
             numOfBus += 1
             avgStars += float(dic["stars"])
             avgNumOfReviews += float(dic["review_count"])
